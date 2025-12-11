@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+/*01*/
+/*
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(24, 97, 126);
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(33, 136, 161);
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+*/
+
+/*02*/
+/*
+body { /*Fontes com 2 nomes devem estar entre aspas
+    font-family: Arial;
+}
+*/
+
+/*03*/
+/*
+body {
+    font-family: Arial;
+    font-size: 1.5em;
+}
+/*
+Medidas absolutas:
+cm | mm | in | px | pt | pc
+
+Medidas relativas
+em | ex | rem | vw | vh | %
+
+16px é, geralmente o tamanho de 1em
+*/
+
+/*04*/
+
+h1 {/*Tudo condensado em 1 linha
+    Ordem = font-style -> font-weight -> font-size -> font-family*/
+    font: italic bolder 3em Arial, serif;
+}

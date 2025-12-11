@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*geral*/
+
+@font-face {
+    font-family: 'droidfont';
+    src: url('../assets/fonts/idroid.otf');
+}
+
+main section .tt {
+    color: #195935;
+    font-size: 30px;
+    font-family: 'droidfont';
+    padding: 8px 8px;
+}
+
+main section .bg-tt {
+    background-color: #1959352d;
+}
+
+main section .d-img, .i-img, .b-img {
+    width: 100%;
+}
+
+main section .link-p {
+    text-decoration: none;
+    color: #195935;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+main section .st {
+    color: #195935;
+}
+
+main section .txt-p {
+    font-size: 16px;
+}
+
+/*\/ header \/*/
+
+header {
+    background: linear-gradient(to bottom, #3BD57F, #195935);
+    padding: 10px;
+}
+
+header h1,p {
+    text-align: center;
+    color: white;
+    padding: 7px 0 10px 0;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding-top: 19px;
+    padding-right: 7px;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+}
+/*/\ header /\*/
+
+/*\/ main \/*/
+
+main {
+    background-color: #84E1AD;
+}
+
+main section.hist-info {
+    background-color: white;
+    height: 90%;
+    padding: 2% 2%;
+    width: 60%;
+    margin: 0 auto;
+}
+
+main section.hist-info p {
+    text-align: left;
+    color: black;
+    text-indent: 25px;
+}
+
+main section.hist-info .b-img {
+    text-align: center;
+}
+
+main section.hist-info .vid {
+    background-color: #195935;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px 0
+}
+
+main section.hist-info .vid iframe {
+    width: 90%;
+    height: 345px;
+    background-color: #195935;
+}
+
+/*\/ asidecontent \/*/
+
+main section.hist-info h1.t2 {
+    color: white;
+    font-size: 22px;
+    background-color: #195935;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 20px 0 0 0;
+    padding: 3px 7px;
+}
+
+main section .apr-m {
+    width: 100%;
+    background: #8ae0afc2;
+    height: 400px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+main section .apr-m > .txt-p {
+    font-size: 17px;
+}
+
+main section .apr-m .lista-android {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    width: 100%;
+}
+
+main section .apr-m .lista-android li {
+    padding: 3px 0;
+    font-size: 17px;
+}
+
+/*/\ asidecontent /\*/
+
+/*/\ main /\*/
+
+/*\/ footer \/*/
+
+footer {
+    width: 100%;
+    background-color: #195935;
+    text-align: center;
+    color: white;
+    padding: 4px 0;
+}
+
+/*/\ footer /\*/

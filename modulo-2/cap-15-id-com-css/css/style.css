@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body {
+    font: normal 1em Arial, Helvetica, Sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    color: darkgreen;
+}
+
+h2 {
+    color: green;
+}
+
+#titulo-principal {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    background-color: yellow;
+}

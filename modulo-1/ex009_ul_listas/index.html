@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="author" content="João Santos">
+    <meta name="keyword" content="palavras,separadas,por,virgulas">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Listas</title>
+</head>
+<body>
+    
+    <h1>Listas</h1>
+
+    <h2>Existem alguns tipos de listas que podemos utilizar, entre elas temos as listas ordenadas (ol):</h1>
+    <ol type="I" start="2"> <!-- 1 A a I i -->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <p>Nas Ol, podemos definir a sua ordem com os parâmetros type="" e start=""</p>
+
+    <h2>Também temos listas não ordenadas, as famosas ul</h2>
+    <ul> <!-- disc circle square -->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h2>Claro que podemos misturar tudo, criando listas dentro de listas:</h2>
+    <ol type="i" start="1">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <ol type="1" start="4">
+            <li>Item 4</li>
+            <li>Item 5</li>
+            <li>Item 6</li>
+        </ol>
+        <li>Item 4</li>
+        <ul>
+            <li>Item sl</li>
+            <li>Item sl2</li>
+        </ul>
+    </ol>
+
+    <h2>Temos também as listas de definições, que trazem tópicos e suas definições:</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação essencial para a criação de sites!</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação essencial para a estilização de sites!</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação utilizada para criar animações em sites!</dd>
+    </dl>
+
+
+
+    <script type="text/javascript" src="JS/jquery.js"></script>
+    <script type="text/javascript" src="JS/function.js"></script>
+</body>
+</html>

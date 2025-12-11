@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="author" content="João Santos">
+    <meta name="keyword" content="palavras,separadas,por,virgulas">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <!-- Imagens dinâmicas
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminuia o tamanho do seu navegador.</p>
+
+    //source serve para imagens alternativas em relação ao tamanho da tela, também especificar tipo de imagem (pnj, jpeg, jpg).
+    <picture>
+        <source media="(max-width: 750px)" srcset="IVA/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="IVA/foto-m.png" type="image/png">
+        <img src="IVA/foto-g.png" alt="imagem flexivel">
+    </picture>
+    -->
+
+    <!--
+    <audio src="IVA/guanacast-33.mp3" controls>
+
+    </audio>
+    <!--Formatos, MP3 | WAV | OGG
+    <audio preload="metadata" controls> <!--autoplay para inicio automático
+        <source src="IVA/happy-mistake.mp3" type="audio/mpeg">
+        <source src="IVA/happy-mistake.ogg" type="audio/ogg">
+        <source src="IVA/happy-mistake.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não é compatível com audios.</p>
+    </audio>
+    -->
+
+    <!--
+    Tipos de arquivos para vídeos
+    .mp4 
+    .webm 
+    .ogg    
+    -->
+    <!--
+    <video src="" width="600" poster="thumb.jpg" controls autoplay>
+        <source src="video.mp4" type="video/mp4">
+        <source src="video.webm" type="video/webm">
+        <source src="video.ogg" type="video/ogg">
+        <p>Infelizmente seu navegador não conseguiu carregar os vídeos.</p>
+    </video>
+    -->
+
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedade no meu próprio servidor.</p>
+
+    <video controls poster="IVA/foto-p.png" loop width="560">
+        <source src="IVA/Meuvideo.mp4" type="video/mp4"> <!--1 a ser carregado-->
+        <source src="IVA/Meuvideo.mkv.mkv" type="video/mkv"> <!--2 a ser carregado-->
+        <source src="IVA/Meuvideo.webm.webm" type="video/webm"> <!--3 a ser carregado-->
+        <source src="IVA/Meuvideo.ogv.ogv" type="video/ogg"> <!--4 a ser carregado-->
+        Seu navegador não tem compatibilidade com reprodução de vídeo
+    </video>
+
+    <h1>Inserindo vídeos/lives do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lsVkFrlnl7Q?si=JZmNEyZc-4UxjTT_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeo através do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/20345086?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="378" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Animation Reel"></iframe>
+
+    <script type="text/javascript" src="JS/function.js"></script>
+</body>
+</html>
